@@ -8,8 +8,14 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
+    "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": [
+        "src/app/components/*"
+      ]
+    },
     "noEmit": true,
     "incremental": true,
     "esModuleInterop": true,
